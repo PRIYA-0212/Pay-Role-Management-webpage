@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="index.js"></script>
+    <title>Pay Role Management</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Pay Role Management</h1>
+        </header>
+        <p class="description">
+            Enter the bill amount and the cash given by the customer and know the minimum number of notes to return.
+        </p>
+        <label for="bill"><strong>Enter the bill amount:</strong></label>
+        <input type="number" class="input-bill" id="bill" />
+        <label for="cash"><strong>Cash Given:</strong></label>
+        <input type="number" class="cash-given" id="cash" />
+        <button class="check-btn" id="btn">Check</button>
+        <p id="error" class="error"></p>
+
+        <table class="table">
+            <caption><strong>Return Change</strong></caption>
+            <thead>
+                <tr>
+                    <th>No of Notes</th>
+                    <th>2000</th>
+                    <th>500</th>
+                    <th>100</th>
+                    <th>20</th>
+                    <th>10</th>
+                    <th>5</th>
+                    <th>1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="row">
+                    <td>No of Notes</td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                    <td class="no-of-notes"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>
