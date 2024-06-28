@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: aqua;
+}
+
+.table {
+    border: 2px solid black;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.row {
+    border: 2px solid black;
+}
+
+.no-of-notes {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.check-btn {
+    margin-top: 35px;
+    padding: 5px;
+}
+
+.input-bill, .cash-given {
+    margin-top: 15px;
+    padding: 5px;
+    width: 100%;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
